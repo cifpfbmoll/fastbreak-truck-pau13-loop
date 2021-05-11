@@ -4,7 +4,7 @@ import edu.pingpong.fastbreaktruck.domain.types.Drink;
 
 public class FleebJuice extends Drink {
 
-    private final String NAME = "FleebJuice";
+    private final String NAME = "Fleeb Juice";
     private final Float PVP = 35.0f;
 
     public FleebJuice() {
