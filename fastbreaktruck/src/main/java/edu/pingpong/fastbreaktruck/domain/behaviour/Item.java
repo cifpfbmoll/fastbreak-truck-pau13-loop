@@ -2,7 +2,7 @@ package edu.pingpong.fastbreaktruck.domain.behaviour;
 
 public interface Item {
 
-    public String nombre();
+    public String name();
 
     public Packing packing();
 
