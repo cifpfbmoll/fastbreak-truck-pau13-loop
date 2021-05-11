@@ -4,7 +4,7 @@ import edu.pingpong.fastbreaktruck.domain.behaviour.Item;
 import edu.pingpong.fastbreaktruck.domain.behaviour.Packing;
 import edu.pingpong.fastbreaktruck.domain.components.Box;
 
-public class Toy implements Item{
+public abstract class Toy implements Item{
     
     public Toy() {
     };
@@ -14,6 +14,7 @@ public class Toy implements Item{
         return new Box();
     }
 
+    @Override
     public String toString() {
         return this.outputFormatter();
     }

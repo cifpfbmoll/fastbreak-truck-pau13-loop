@@ -14,6 +14,7 @@ public abstract class Drink implements Item {
         return new Bottle();
     }
 
+    @Override
     public String toString() {
         return this.outputFormatter();
     }

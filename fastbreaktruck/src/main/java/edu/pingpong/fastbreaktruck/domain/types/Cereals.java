@@ -14,6 +14,7 @@ public abstract class Cereals implements Item {
         return new Box();
     }
 
+    @Override
     public String toString() {
         return this.outputFormatter();
     }
