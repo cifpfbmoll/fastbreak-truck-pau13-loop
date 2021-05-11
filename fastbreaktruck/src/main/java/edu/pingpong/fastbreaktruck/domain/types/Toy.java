@@ -4,9 +4,9 @@ import edu.pingpong.fastbreaktruck.domain.behaviour.Item;
 import edu.pingpong.fastbreaktruck.domain.behaviour.Packing;
 import edu.pingpong.fastbreaktruck.domain.components.Box;
 
-public abstract class Cereals implements Item {
-
-    public Cereals() {
+public class Toy implements Item{
+    
+    public Toy() {
     };
 
     @Override

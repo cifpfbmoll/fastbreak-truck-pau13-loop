@@ -15,6 +15,6 @@ public abstract class Drink implements Item {
     }
 
     public String toString() {
-        return packing().envelop();
+        return this.outputFormatter();
     }
 }
