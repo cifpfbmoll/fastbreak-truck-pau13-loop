@@ -10,23 +10,25 @@ public class App {
 
     public static void main(String[] args) {
 
+        final String priceOutput = "Price order: ";
+
         /**
          * Desayuno Eyeholes
          */
 
         Meal eyeDes = FastBreakTruck.prepareEyeholes();
-        System.out.println("\n\tNo abras la caja de Eyeholes!");
+        System.out.println("\n\tDon't open the box of Eyeholes !");
         eyeDes.showItems();
-        System.out.print("Precio pedido: " + eyeDes.getTotalPrice());
+        System.out.print(priceOutput + eyeDes.getTotalPrice());
 
         // /**
         // * Desayuno Smiggles
         // */
 
         Meal smigDes = FastBreakTruck.prepareSmiggles();
-        System.out.println("\n\n\tSmiggles per als nins!");
+        System.out.println("\n\n\tSmiggles for the kids !");
         smigDes.showItems();
-        System.out.print("Precio pedido: " + smigDes.getTotalPrice());
+        System.out.print(priceOutput + smigDes.getTotalPrice());
 
         // /**
         // * Plumbus
@@ -36,6 +38,6 @@ public class App {
         FastBreakTruck.addToy(eyeDes);
         System.out.println("\n\n\tEyeholes con plumbus!");
         eyeDes.showItems();
-        System.out.print("Precio pedido: " + eyeDes.getTotalPrice());
+        System.out.print(priceOutput + eyeDes.getTotalPrice());
     }
 }
